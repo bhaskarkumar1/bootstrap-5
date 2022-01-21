@@ -452,9 +452,55 @@ output {
   display: inline-block;
 }
 
-iframe {
-  border: 0;
+
+.iframe-container{
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+  height: 0;
 }
+.iframe-container iframe{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+
+
+/* .whole{
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+  height: 0;
+}
+.whole div{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* iframe {
+  border: 0;
+} */
 
 summary {
   display: list-item;
@@ -682,6 +728,7 @@ progress {
   padding-left: calc(var(--bs-gutter-x) / 2);
   margin-top: var(--bs-gutter-y);
 }
+
 
 .col {
   -webkit-box-flex: 1;
