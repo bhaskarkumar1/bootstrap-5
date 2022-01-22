@@ -2244,6 +2244,26 @@ progress {
   font-size: 0.875rem;
 }
 
+.center-align{
+text-align: center;
+}
+
+.rowicon{
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.container{
+width: 100%;
+padding-left: 15px;
+padding-right:15px;
+margin-left:auto;
+margin-right:auto;
+
+}
+
 .form-text {
   margin-top: 0.25rem;
   font-size: 0.875em;
@@ -4248,6 +4268,7 @@ fieldset:disabled .btn {
   list-style: none;
 }
 
+
 .nav-link {
   display: block;
   padding: 0.5rem 1rem;
@@ -4361,7 +4382,15 @@ fieldset:disabled .btn {
   justify-content: space-between;
   padding-top: 1rem;
   padding-bottom: 1rem;
+  /* width:extend-to-zoom;
+  zoom:1.0; */
+
 }
+
+/* .navabaar{
+  width:extend-to-zoom;
+  zoom:1.0;
+} */
 
 .navbar > .container,
 .navbar > .container-fluid, .navbar > .container-sm, .navbar > .container-md, .navbar > .container-lg, .navbar > .container-xl, .navbar > .container-xxl {
